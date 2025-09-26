@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Charlie Tronrud</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Shared nav -->
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <a href="index.html" class="site-branding">Charlie Tronrud</a>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="funstuff.html">Fun Stuff</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="grid-container">
+    <h1 class="h2">Projects</h1>
+
+    <!-- Project 1: Andersen Internship -->
+    <article class="callout project-card">
+      <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="cell small-12">
+          <h2 class="h4 no-margin-bottom">Automated Functional Testing (Andersen)</h2>
+          <p class="small-text">JavaScript · Playwright · Azure DevOps · CI/CD</p>
+          <p>
+            Automated functional testing using JavaScript and Playwright for Andersen’s main catalog/dealer application
+            to advance CI/CD efforts.
+          </p>
+        </div>
+
+        <!-- image gallery -->
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/internphoto1-400.webp 400w, assets/projects/internphoto1-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/internphoto1-400.jpg 400w, assets/projects/internphoto1-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/internphoto1-624.jpg" alt="Azure DevOps pipeline running Playwright tests" width="624" height="305">
+          </picture>
+        </div>
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/internphoto2-400.webp 400w, assets/projects/internphoto2-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/internphoto2-400.jpg 400w, assets/projects/internphoto2-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/internphoto2-624.jpg" alt="Playwright trace viewer showing UI steps and timings" width="624" height="239">
+          </picture>
+        </div>
+
+        <div class="cell small-12">
+          <ul class="no-bullet">
+            <li>• Built stable selectors and config for smoke + regression paths</li>
+            <li>• Integrated headless runs into pipeline with artifacts (trace/screens)</li>
+            <li>• Outcome: faster feedback for catalog flows; improved CI visibility</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2: Solar System Animation -->
+    <article class="callout project-card">
+      <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="cell small-12">
+          <h2 class="h4 no-margin-bottom">Solar System Animation</h2>
+          <p class="small-text">HTML · CSS · JavaScript (DOM/CSS transforms)</p>
+          <p>
+            J-Term project to advance HTML/CSS/JS skills. Built a visually appealing orbit animation that’s easy to break down in interviews.
+          </p>
+        </div>
+
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/solaranimation1-400.webp 400w, assets/projects/solaranimation1-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/solaranimation1-400.jpg 400w, assets/projects/solaranimation1-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/solaranimation1-624.jpg" alt="Solar system animation running in the browser" width="624" height="356">
+          </picture>
+        </div>
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/solaranimation2-400.webp 400w, assets/projects/solaranimation2-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/solaranimation2-400.jpg 400w, assets/projects/solaranimation2-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/solaranimation2-624.jpg" alt="Close-up of planet orbits and trails" width="624" height="320">
+          </picture>
+        </div>
+
+        <div class="cell small-12">
+          <ul class="no-bullet">
+            <li>• Timed animations with CSS keyframes and transform-origin</li>
+            <li>• Layered background, trails, and z-index for depth without libraries</li>
+            <li>• Focused on readable structure for interview walkthroughs</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3: TicTacToe -->
+    <article class="callout project-card">
+      <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="cell small-12">
+          <h2 class="h4 no-margin-bottom">TicTacToe (Minimax)</h2>
+          <p class="small-text">HTML · CSS · JavaScript · Game Tree Search</p>
+          <p>
+            J-Term follow-up to practice JS and game tree search. Implemented minimax to make an almost unbeatable computer.
+            A few edge cases remain, but it’s solid overall.
+          </p>
+        </div>
+
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/tictactoe1-400.webp 400w, assets/projects/tictactoe1-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/tictactoe1-400.jpg 400w, assets/projects/tictactoe1-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/tictactoe1-624.jpg" alt="TicTacToe board mid-game" width="624" height="353">
+          </picture>
+        </div>
+        <div class="cell small-12 medium-6">
+          <picture>
+            <source type="image/webp" srcset="assets/projects/tictactoe2-400.webp 400w, assets/projects/tictactoe2-624.webp 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <source type="image/jpeg" srcset="assets/projects/tictactoe2-400.jpg 400w, assets/projects/tictactoe2-624.jpg 624w" sizes="(max-width: 640px) 100vw, 560px">
+            <img class="project-img" src="assets/projects/tictactoe2-624.jpg" alt="TicTacToe win state with row highlight" width="624" height="350">
+          </picture>
+        </div>
+
+        <div class="cell small-12">
+          <ul class="no-bullet">
+            <li>• Implemented minimax for AI moves; deterministic optimal play</li>
+            <li>• Highlighted win lines; restart and human/computer toggle</li>
+            <li>• Known gaps: a couple edge-case logic holes to refine</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-container">
+      <p class="small-text">© <span id="year"></span> Charlie Tronrud</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
